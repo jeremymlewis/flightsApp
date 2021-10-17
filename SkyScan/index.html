@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Flight Cost by Date</title>
+  <link rel="stylesheet" href="/styles.css">
+  <div class="head">
+    <h1><img class="icon" src="images/planes.png">Flight Prices By Weekend<img class="icon" src="images/planes.png"></h1>
+  </div>
+</head>
+
+<body>
+  <div class="center">
+
+
+  <form>
+    <label>Choose a date to check one-way flight costs around the USA!</label><br/>
+    <label>Flights will display the logo of the providing airline.</label><br/>
+
+    <label for="fromCity">Staring City:</label>
+    <select name="fromCity" id="fromSelect">
+      <option value="ATL">Atlanta</option>
+      <option value="ANC">Anchorage</option>
+      <option value="AUS">Austin</option>
+      <option value="BWI">Baltimore</option>
+      <option value="BOS">Boston</option>
+      <option value="CLT">Charlotte</option>
+      <option value="ORD">Chicago</option>
+      <option value="CVG">Cincinnati</option>
+      <option value="CLE">Cleveland</option>
+      <option value="DFW">Dallas</option>
+      <option value="DEN">Denver</option>
+      <option value="DTW">Detroit</option>
+      <option value="FLL">Fort Lauderdale</option>
+      <option value="BDL">Hartford</option>
+      <option value="HNL">Hawaii</option>
+      <option value="HOU">Houston</option>
+      <option value="IND">Indainapolis</option>
+      <option value="MCI">Kansas City</option>
+      <option value="LAS">Las Vegas</option>
+      <option value="LAX">Los Angeles</option>
+      <option value="MEM">Memphis</option>
+      <option value="MIA">Miami</option>
+      <option value="BNA">Nashville</option>
+      <option value="MSY">New Orleans</option>
+      <option value="JFK">New York</option>
+      <option value="OAK">Oakland</option>
+      <option value="MCO">Orlando</option>
+      <option value="PHL">Philadelphia</option>
+      <option value="PHX">Phoenix</option>
+      <option value="PIT">Pittsburg</option>
+      <option value="PDX">Portland</option>
+      <option value="RDU">Raleigh</option>
+      <option value="SMF">Sacramento</option>
+      <option value="SLC">Salt Lake</option>
+      <option value="SAT">San Antonio</option>
+      <option value="SAN">San Diego</option>
+      <option value="SEA">Seattle</option>
+      <option value="STL">St. Louis</option>
+      <option value="MSP">St. Paul</option>
+      <option value="TPA">Tampa</option>
+      <option value="DCA">Washington DC</option>
+    </select> 
+    <br>
+    <label for="dateInput">Pick a date:</label>
+    <input id="dateInput" type="date"></input><br/>
+    <input id="dateSubmit" type="submit" value="Submit"></input>
+  </form>
+  <hr>
+
+  <div id="loading">Results will appear here:</div>
+  <div id="case">
+  <div id="loaded"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+
+<footer>
+  <hr>
+  <p class="foot">Page Made By Github User jeremymlewis</p>
+  <p class="foot"><a href="https://github.com/BYUCS260/weather-app-jeremymlewis">Project Github</a></p>
+  <p class="foot">&copy 2021 Jeremy Lewis</p>
+</footer>
+  </div>
+
+
+
+</body>
+
+
+
+</html>

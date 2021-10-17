@@ -1,0 +1,126 @@
+
+.icon {
+    max-height: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+#loading {
+    text-align: center;
+}
+
+
+#loaded {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 3px solid #001011;
+    border-radius: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.placeBox {
+    background-color: rgb(159, 207, 166);
+    border: 3px solid #001011;
+    border-radius: 2px;
+    padding: 20px;
+
+}
+
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.current {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("images/IMG_1780.JPG");
+}
+
+.center {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #64e9ee;
+}
+
+
+
+footer {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #3aafb9;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#header {
+    background-color: rgb(18, 177, 230);
+    width: 100%;
+}
+
+.head {
+    background-color: rgb(53, 91, 216);
+}
+
+#dateSubmit {
+    border: 2px solid #001011;
+    background-color: #3aafb9;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+#dateSubmit:hover {
+    border: 2px solid black;
+    background-color:  #97c8eb;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+#dateSubmit:active {
+    border: 2px solid black;
+    background-color:  #093a3e;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: .75rem;
+}
